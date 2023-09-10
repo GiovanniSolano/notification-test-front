@@ -1,0 +1,4 @@
+
+<div *ngIf="activityLogs">
+  <app-table [tableData]="activityLogs" [columns]="columns" [paginatorData]="paginatorData" (pageChanged)="pageChanged($event)"></app-table>
+</div>

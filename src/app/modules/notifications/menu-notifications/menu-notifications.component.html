@@ -1,0 +1,4 @@
+
+<div *ngIf="categories">
+  <app-card-notification [categories]="categories" (newNotification)="newNotification($event)"></app-card-notification>
+</div>
